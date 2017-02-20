@@ -1,4 +1,4 @@
-app_path = File.expand_path('../../', __FILE__)
+app_path = "/var/www/jognote"
 
 worker_processes 1
 
