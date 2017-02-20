@@ -50,6 +50,5 @@ test:
 production:
   <<: *default
   database: jognote_production
-  username: jognote
   password: <%= ENV['JOGNOTE_DATABASE_PASSWORD'] %>
   socket: /var/lib/mysql/mysql.sock
